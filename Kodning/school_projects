@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="da" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School projects</title>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <header>
+    <!--Header start - venstre side af menuen-->
+      <div class="logo">
+          <a href="index.html"><img class="logo_image" src="logo_done_.png" alt="logo"></a> 
+      </div>
+  
+    <!--Burger menu - start-->
+    <!--for at lave menuen er denne kilde brugt https://www.youtube.com/watch?v=bO9qHAhXbVA-->
+      <label for="mobilmenu" class="burger_menu">
+          <div class="menu_icon"></div>
+      </label>
+      <input type="checkbox" class="mobil_menu" id="mobilmenu">
+      <nav class="menu">
+          <ul>
+              <li><a href="About.html">About </a></li>
+              <li><a href="Project.html">Projects</a></li>
+              <li><a href="contact.html">Contact </a></li>
+          </ul>
+      </nav>
+    <!--Burger menu - slut-->
+  </header>
+
+<main>
+
+</main>
+
+<footer>
+    <p class="copyrigt">© Simone Bogensberger</p>
+
+    <div class="sociale_medier">
+        <div class="mail">
+            <a href="#"><img class="mail_logo" src="mail.png" alt="mail_logo"></a>
+        </div>
+        <div class="facebook">
+            <a href="#"><img class="facebook_logo" src="facebook.png" alt="facebook_logo"></a>
+        </div>
+        <div class="linkedin">
+            <a href="#"><img class="linkedin_logo" src="linkedin.png" alt="linkedin_logo_logo"></a>
+        </div>
+</footer>
+
+</body>
+
+</html>
